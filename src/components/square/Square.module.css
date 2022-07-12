@@ -1,0 +1,38 @@
+.button {
+   border: none;
+   font-size: 90px;
+   text-align: center;
+   font-weight: bold;
+   cursor: pointer;
+   overflow: hidden;
+   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+   transform: rotateY(0deg);
+   transform-style: preserve-3d;
+   transition: all 1s ease-out;
+   position: relative;
+}
+.button .position {
+   position: absolute;
+   width: 76%;
+   height: 76%;
+   transform: translateZ(6vmin);
+   top: 12%;
+   left: 12%;
+   pointer-events: none;
+   z-index: 1;
+ }
+ .position {
+   stroke-dasharray: 0px;
+}
+.position{
+   position: relative;
+   stroke-dasharray: 0px;
+   background-color: aqua !important;
+   border: none;
+   font-size: 90px;
+   text-align: center;
+   font-weight: bold;
+   cursor: pointer;
+   overflow: hidden;
+   box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
+  }
